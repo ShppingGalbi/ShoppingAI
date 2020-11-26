@@ -12,6 +12,7 @@ class AgeVC:UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
     }
+    
     @IBAction func PreSex(_ sender: Any) {
         guard let agvc = self.storyboard?.instantiateViewController(withIdentifier: "SexVC") else{
                 return

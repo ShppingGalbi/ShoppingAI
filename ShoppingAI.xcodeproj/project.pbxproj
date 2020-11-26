@@ -21,6 +21,11 @@
 		3D8FD2A5256EF35600C47260 /* StyleVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D8FD2A4256EF35600C47260 /* StyleVC.swift */; };
 		3D8FD2AB256EF62C00C47260 /* Upload1VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D8FD2AA256EF62C00C47260 /* Upload1VC.swift */; };
 		3D8FD2B3256EFA2900C47260 /* CategoryVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D8FD2B2256EFA2900C47260 /* CategoryVC.swift */; };
+		3D8FD2BD256FC73600C47260 /* HUFSIT_2조파인드룩_발표자료_pdf.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 3D8FD2B8256FC73500C47260 /* HUFSIT_2조파인드룩_발표자료_pdf.pdf */; };
+		3D8FD2BE256FC73600C47260 /* HUFSIT_2조파인드룩_시연영상_mov.mov in Resources */ = {isa = PBXBuildFile; fileRef = 3D8FD2B9256FC73500C47260 /* HUFSIT_2조파인드룩_시연영상_mov.mov */; };
+		3D8FD2BF256FC73600C47260 /* HUFSIT_2조파인드룩_시연영상_mp4.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 3D8FD2BA256FC73500C47260 /* HUFSIT_2조파인드룩_시연영상_mp4.mp4 */; };
+		3D8FD2C0256FC73600C47260 /* HUFSIT_2조파인드룩_발표자료_ppt.pptx in Resources */ = {isa = PBXBuildFile; fileRef = 3D8FD2BB256FC73500C47260 /* HUFSIT_2조파인드룩_발표자료_ppt.pptx */; };
+		3D8FD2C1256FC73600C47260 /* HUFSIT_2조 기획서_정희은,이혜은,주성연.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 3D8FD2BC256FC73500C47260 /* HUFSIT_2조 기획서_정희은,이혜은,주성연.pdf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +66,11 @@
 		3D8FD2A4256EF35600C47260 /* StyleVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StyleVC.swift; sourceTree = "<group>"; };
 		3D8FD2AA256EF62C00C47260 /* Upload1VC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Upload1VC.swift; sourceTree = "<group>"; };
 		3D8FD2B2256EFA2900C47260 /* CategoryVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryVC.swift; sourceTree = "<group>"; };
+		3D8FD2B8256FC73500C47260 /* HUFSIT_2조파인드룩_발표자료_pdf.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "HUFSIT_2조파인드룩_발표자료_pdf.pdf"; sourceTree = "<group>"; };
+		3D8FD2B9256FC73500C47260 /* HUFSIT_2조파인드룩_시연영상_mov.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = "HUFSIT_2조파인드룩_시연영상_mov.mov"; sourceTree = "<group>"; };
+		3D8FD2BA256FC73500C47260 /* HUFSIT_2조파인드룩_시연영상_mp4.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "HUFSIT_2조파인드룩_시연영상_mp4.mp4"; sourceTree = "<group>"; };
+		3D8FD2BB256FC73500C47260 /* HUFSIT_2조파인드룩_발표자료_ppt.pptx */ = {isa = PBXFileReference; lastKnownFileType = file; path = "HUFSIT_2조파인드룩_발표자료_ppt.pptx"; sourceTree = "<group>"; };
+		3D8FD2BC256FC73500C47260 /* HUFSIT_2조 기획서_정희은,이혜은,주성연.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "HUFSIT_2조 기획서_정희은,이혜은,주성연.pdf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +121,7 @@
 		3D8FD261256E451300C47260 /* ShoppingAI */ = {
 			isa = PBXGroup;
 			children = (
+				3D8FD2B7256FC73500C47260 /* 발표 자료 및 기획서 */,
 				3D8FD2A9256EF5EC00C47260 /* MainViewFolder */,
 				3D8FD262256E451300C47260 /* AppDelegate.swift */,
 				3D8FD264256E451300C47260 /* SceneDelegate.swift */,
@@ -153,6 +164,18 @@
 			);
 			path = MainViewFolder;
 			sourceTree = "<group>";
+		};
+		3D8FD2B7256FC73500C47260 /* 발표 자료 및 기획서 */ = {
+			isa = PBXGroup;
+			children = (
+				3D8FD2B8256FC73500C47260 /* HUFSIT_2조파인드룩_발표자료_pdf.pdf */,
+				3D8FD2B9256FC73500C47260 /* HUFSIT_2조파인드룩_시연영상_mov.mov */,
+				3D8FD2BA256FC73500C47260 /* HUFSIT_2조파인드룩_시연영상_mp4.mp4 */,
+				3D8FD2BB256FC73500C47260 /* HUFSIT_2조파인드룩_발표자료_ppt.pptx */,
+				3D8FD2BC256FC73500C47260 /* HUFSIT_2조 기획서_정희은,이혜은,주성연.pdf */,
+			);
+			path = "발표 자료 및 기획서";
+			sourceTree = SOURCE_ROOT;
 		};
 /* End PBXGroup section */
 
@@ -257,9 +280,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3D8FD2BF256FC73600C47260 /* HUFSIT_2조파인드룩_시연영상_mp4.mp4 in Resources */,
+				3D8FD2C1256FC73600C47260 /* HUFSIT_2조 기획서_정희은,이혜은,주성연.pdf in Resources */,
 				3D8FD26F256E451500C47260 /* LaunchScreen.storyboard in Resources */,
+				3D8FD2BD256FC73600C47260 /* HUFSIT_2조파인드룩_발표자료_pdf.pdf in Resources */,
 				3D8FD26C256E451500C47260 /* Assets.xcassets in Resources */,
 				3D8FD26A256E451300C47260 /* Main.storyboard in Resources */,
+				3D8FD2C0256FC73600C47260 /* HUFSIT_2조파인드룩_발표자료_ppt.pptx in Resources */,
+				3D8FD2BE256FC73600C47260 /* HUFSIT_2조파인드룩_시연영상_mov.mov in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
